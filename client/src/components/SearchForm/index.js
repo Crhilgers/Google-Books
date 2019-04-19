@@ -3,7 +3,7 @@ import "./style.css";
 
 function SearchForm({ q, handleInputChange, handleFormSubmit }) {
   return (
-    <form className="form-inline" role="form">
+    <form className="form-inline">
       <div className="form-group mx-sm-3 mb-2">
         <label htmlFor="Title" className="sr-only">
           Search Book Title
